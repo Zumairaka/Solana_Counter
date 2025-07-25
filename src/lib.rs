@@ -22,7 +22,7 @@ struct Counter {
 entrypoint!(counter_contract);
 
 pub fn counter_contract(
-    pubkey: &Pubkey,
+    _pubkey: &Pubkey,
     accounts: &[AccountInfo],
     instruction_data: &[u8],
 ) -> ProgramResult {
